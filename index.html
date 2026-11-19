@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="StudioKapt crée des photos et vidéos pour les réseaux sociaux des restaurants et petites entreprises. Contenus verticaux, photographie professionnelle et direction éditoriale.">
+  <meta name="theme-color" content="#121212">
+  <meta property="og:title" content="StudioKapt — Photo, vidéo et réseaux sociaux">
+  <meta property="og:description" content="Des images qui arrêtent le scroll. Des contenus qui donnent envie de vous choisir.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85">
+  <title>StudioKapt — Studio photo & vidéo pour les réseaux sociaux</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f97028'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial' font-size='30' font-weight='700' fill='%23121212'%3ESK%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="./src/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="StudioKapt, retour en haut">
+      <span class="brand-mark" aria-hidden="true">SK</span>
+      <span>StudioKapt</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-label">Menu</span>
+      <span class="menu-lines" aria-hidden="true"><i></i><i></i></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+      <a href="#pourquoi">Pourquoi</a>
+      <a href="#services">Services</a>
+      <a href="#realisations">Inspirations</a>
+      <a href="#formules">Formules</a>
+      <a class="nav-cta" href="#contact">Votre projet <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=2000&q=88" alt="" fetchpriority="high">
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-side-note" aria-hidden="true">STUDIO DE CONTENU · PHOTO · VIDÉO · SOCIAL MEDIA</div>
+      <div class="hero-card">
+        <p class="eyebrow">Pour les commerces qui ont quelque chose à montrer</p>
+        <h1 id="hero-title">Votre savoir-faire mérite d’être <em>vu.</em></h1>
+        <p class="hero-intro">Nous créons les photos et vidéos qui donnent envie de vous découvrir, puis nous les adaptons à Instagram, TikTok et Facebook.</p>
+        <a class="button button-primary" href="#formules">Créer mon contenu <span aria-hidden="true">→</span></a>
+        <p class="hero-note">Restaurants · cafés · boutiques · artisans · indépendants</p>
+      </div>
+      <a class="hero-scroll" href="#pourquoi">
+        <span>Découvrir</span>
+        <span aria-hidden="true">↓</span>
+      </a>
+    </section>
+
+    <div class="ticker" aria-label="Nos domaines de création">
+      <div class="ticker-track">
+        <span>REELS</span><i>×</i><span>PHOTOS DE PRODUITS</span><i>×</i><span>COULISSES</span><i>×</i><span>TIKTOK</span><i>×</i><span>PORTRAITS</span><i>×</i><span>STORIES</span><i>×</i><span>AMBIANCE</span><i>×</i><span>CONTENU VERTICAL</span>
+      </div>
+    </div>
+
+    <section class="why section" id="pourquoi" aria-labelledby="why-title">
+      <div class="section-heading editorial-heading">
+        <p class="eyebrow">Le marketing sur les réseaux sociaux</p>
+        <h2 id="why-title">Vos clients voient<br>avant de <em>choisir.</em></h2>
+        <p class="lead">Un plat, un produit ou un service peut être excellent et rester invisible. Les réseaux sociaux vous donnent un espace pour montrer ce qui vous rend différent, créer la confiance et rappeler régulièrement votre présence.</p>
+      </div>
+      <div class="benefit-list">
+        <article class="benefit-row">
+          <span class="benefit-number">(01)</span>
+          <h3>Attirer l’attention</h3>
+          <p>Un cadrage soigné, un geste filmé ou une texture appétissante donnent une raison de s’arrêter sur votre publication.</p>
+        </article>
+        <article class="benefit-row">
+          <span class="benefit-number">(02)</span>
+          <h3>Donner envie</h3>
+          <p>La photo révèle les détails. La vidéo ajoute le mouvement, le son et l’ambiance : votre offre devient une expérience.</p>
+        </article>
+        <article class="benefit-row">
+          <span class="benefit-number">(03)</span>
+          <h3>Construire la confiance</h3>
+          <p>Montrer votre équipe, vos coulisses et votre régularité rend votre entreprise plus humaine et plus mémorable.</p>
+        </article>
+        <article class="benefit-row">
+          <span class="benefit-number">(04)</span>
+          <h3>Faciliter l’action</h3>
+          <p>Un contenu clair peut orienter vers une réservation, une visite, un message ou une commande, sans promettre de résultat automatique.</p>
+        </article>
+      </div>
+      <p class="editorial-note">Les réseaux ne remplacent pas un bon produit. <strong>Ils lui donnent la visibilité qu’il mérite.</strong></p>
+    </section>
+
+    <section class="manifesto section" aria-label="Notre approche">
+      <div class="manifesto-grid">
+        <figure class="manifesto-main image-frame">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85" alt="Dressage soigné d’une assiette au restaurant" loading="lazy">
+          <figcaption>Le détail qui donne envie</figcaption>
+        </figure>
+        <figure class="manifesto-small image-frame">
+          <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=85" alt="Geste précis d’un professionnel en cuisine" loading="lazy">
+          <figcaption>Le geste qui raconte votre métier</figcaption>
+        </figure>
+        <div class="manifesto-copy">
+          <p class="eyebrow">Notre conviction</p>
+          <p class="manifesto-statement">Une belle image attire l’œil. <em>Une histoire bien construite</em> fait rester.</p>
+          <p>Nous ne filmons pas seulement ce que vous vendez. Nous montrons le soin, l’atmosphère et les personnes qui donnent sa valeur à votre travail.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services" aria-labelledby="services-title">
+      <div class="services-layout">
+        <div class="services-sticky">
+          <p class="eyebrow">Ce que nous créons</p>
+          <h2 id="services-title">Du shooting<br>au <em>scroll.</em></h2>
+          <p>Une production unique, plusieurs contenus utiles. Chaque séance est pensée pour nourrir vos réseaux avec cohérence.</p>
+          <a class="text-link" href="#contact">Parler de votre besoin <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="service-list">
+          <article class="service-item">
+            <div class="service-meta"><span>(01)</span><span>VERTICAL · DYNAMIQUE · SONORE</span></div>
+            <h3>Vidéos pour les réseaux</h3>
+            <p>Reels, TikTok et Shorts conçus pour présenter un plat, un produit, une ambiance ou un savoir-faire. Nous préparons les plans, tournons sur place et montons dans un format prêt à publier.</p>
+            <ul class="service-tags" aria-label="Prestations vidéo">
+              <li>Préparation des plans</li><li>Tournage</li><li>Montage</li><li>Sous-titres</li><li>Formats verticaux</li>
+            </ul>
+          </article>
+          <article class="service-item">
+            <div class="service-meta"><span>(02)</span><span>PRODUIT · LIEU · ÉQUIPE</span></div>
+            <h3>Photographie professionnelle</h3>
+            <p>Des images lumineuses et cohérentes pour rendre votre offre désirable. Nous photographions vos créations, votre espace et les personnes qui donnent vie à votre marque.</p>
+            <ul class="service-tags" aria-label="Prestations photo">
+              <li>Direction artistique</li><li>Prise de vue</li><li>Sélection</li><li>Retouche</li><li>Exports web</li>
+            </ul>
+          </article>
+          <article class="service-item">
+            <div class="service-meta"><span>(03)</span><span>ANGLE · RYTHME · COHÉRENCE</span></div>
+            <h3>Direction de contenu</h3>
+            <p>Avant de sortir l’appareil, nous définissons ce qu’il faut raconter : vos priorités, vos offres du moment, les attentes de vos clients et le style visuel qui vous ressemble.</p>
+            <ul class="service-tags" aria-label="Prestations éditoriales">
+              <li>Idées de contenus</li><li>Shot list</li><li>Accroches</li><li>Calendrier</li>
+            </ul>
+          </article>
+          <article class="service-item">
+            <div class="service-meta"><span>(04)</span><span>CLARTÉ · AUTONOMIE · SIMPLICITÉ</span></div>
+            <h3>Livraison prête à publier</h3>
+            <p>Vous recevez des fichiers organisés et adaptés aux plateformes. Selon la formule, nous ajoutons les couvertures, les accroches et les textes de publication.</p>
+            <ul class="service-tags" aria-label="Livrables">
+              <li>Fichiers optimisés</li><li>Couvertures</li><li>Légendes</li><li>Conseils de publication</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section" id="realisations" aria-labelledby="work-title">
+      <div class="work-pin">
+        <div class="work-heading">
+          <div>
+            <p class="eyebrow">Terrains de création</p>
+            <h2 id="work-title">Une séance.<br><em>Plein d’histoires.</em></h2>
+          </div>
+          <p>Explorez cinq angles que nous pouvons développer pour votre entreprise.</p>
+        </div>
+        <div class="work-viewport">
+          <div class="work-track">
+            <article class="project-card project-wide">
+              <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=85" alt="Composition colorée de plusieurs plats photographiée du dessus" loading="lazy">
+              <div class="project-caption"><span>PHOTO / MENU</span><h3>Le plat signature</h3><p>Mettre votre produit au centre et laisser les détails faire le travail.</p></div>
+            </article>
+            <article class="project-card project-portrait">
+              <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=900&q=85" alt="Chef finalisant un dressage dans sa cuisine" loading="lazy">
+              <div class="project-caption"><span>VIDÉO / COULISSES</span><h3>Le geste du chef</h3><p>Filmer la précision, la matière et le mouvement pour raconter votre exigence.</p></div>
+            </article>
+            <article class="project-card project-wide">
+              <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1400&q=85" alt="Salle chaleureuse d’un restaurant préparée pour le service" loading="lazy">
+              <div class="project-caption"><span>PHOTO / IMMERSION</span><h3>L’ambiance du lieu</h3><p>Donner envie de franchir la porte avant même la prochaine visite.</p></div>
+            </article>
+            <article class="project-card project-portrait">
+              <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=85" alt="Burgers dressés dans une lumière chaude et contrastée" loading="lazy">
+              <div class="project-caption"><span>PHOTO + VIDÉO / OFFRE</span><h3>Le lancement</h3><p>Créer une série cohérente pour présenter une nouveauté sous plusieurs angles.</p></div>
+            </article>
+            <article class="project-card project-wide">
+              <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1400&q=85" alt="Dessert gourmand photographié avec des fruits frais" loading="lazy">
+              <div class="project-caption"><span>CONTENU / DÉTAIL</span><h3>Le moment gourmand</h3><p>Construire un contenu sensoriel autour des textures, couleurs et associations.</p></div>
+            </article>
+          </div>
+        </div>
+        <div class="work-footer">
+          <p>Images d’illustration. Vos futurs projets prendront place ici.</p>
+          <div class="work-controls">
+            <button type="button" class="work-prev" aria-label="Voir l’inspiration précédente">←</button>
+            <button type="button" class="work-next" aria-label="Voir l’inspiration suivante">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages section" id="formules" aria-labelledby="packages-title">
+      <div class="packages-heading">
+        <p class="eyebrow">Des formules modulables</p>
+        <h2 id="packages-title">Choisissez votre<br><em>rythme de création.</em></h2>
+        <p>Un besoin ponctuel ou un flux régulier : nous composons la séance selon vos priorités. Les quantités ci-dessous sont des bases ajustables.</p>
+      </div>
+      <div class="package-list">
+        <article class="package-row">
+          <div class="package-name"><span>(01)</span><h3>Essentielle</h3><p>Pour renouveler votre image avec une séance ciblée.</p></div>
+          <ul><li>12 photos retouchées</li><li>1 vidéo verticale</li><li>Shot list préparatoire</li><li>Fichiers optimisés web</li></ul>
+          <div class="package-action"><span>Sur devis</span><button type="button" class="package-button" data-package="Formule Essentielle">Choisir cette base <span aria-hidden="true">→</span></button></div>
+        </article>
+        <article class="package-row package-signature">
+          <div class="package-name"><span>(02)</span><h3>Signature</h3><p>Pour raconter votre offre en photos et en vidéos.</p></div>
+          <ul><li>20 photos retouchées</li><li>4 vidéos verticales</li><li>Angles et accroches</li><li>Couvertures et légendes</li></ul>
+          <div class="package-action"><span>Sur devis</span><button type="button" class="package-button" data-package="Formule Signature">Choisir cette base <span aria-hidden="true">→</span></button></div>
+        </article>
+        <article class="package-row">
+          <div class="package-name"><span>(03)</span><h3>Mensuelle</h3><p>Pour publier régulièrement sans gérer la production.</p></div>
+          <ul><li>2 séances par mois</li><li>30 photos par mois</li><li>8 vidéos par mois</li><li>Calendrier éditorial</li></ul>
+          <div class="package-action"><span>Sur devis</span><button type="button" class="package-button" data-package="Formule Mensuelle">Choisir cette base <span aria-hidden="true">→</span></button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="process section" aria-labelledby="process-title">
+      <div class="process-heading">
+        <p class="eyebrow">Simple pour vous. Structuré pour nous.</p>
+        <h2 id="process-title">Trois étapes.<br><em>Zéro jargon.</em></h2>
+      </div>
+      <div class="process-grid">
+        <article><span>01</span><h3>On cadre</h3><p>Vous nous parlez de votre activité, de vos clients et de vos priorités. Nous préparons les angles, les plans et le déroulé de la séance.</p></article>
+        <article><span>02</span><h3>On crée</h3><p>Nous tournons et photographions sur place, en vous guidant pour obtenir des images naturelles sans perturber votre activité.</p></article>
+        <article><span>03</span><h3>Vous publiez</h3><p>Après sélection, montage et retouche, vous recevez des contenus classés et adaptés aux plateformes choisies.</p></article>
+      </div>
+    </section>
+
+    <section class="faq section" aria-labelledby="faq-title">
+      <div class="faq-sticky">
+        <p class="eyebrow">Avant de commencer</p>
+        <h2 id="faq-title">Les questions<br><em>que vous vous posez.</em></h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Pourquoi faire appel à un studio alors que j’ai un smartphone ? <span aria-hidden="true">+</span></summary>
+          <p>Le smartphone est un excellent outil. La différence vient surtout de la préparation, de la lumière, du cadrage, de la direction et du montage. StudioKapt vous aide aussi à transformer une séance en série de contenus cohérents.</p>
+        </details>
+        <details>
+          <summary>Dois-je savoir quoi publier avant la séance ? <span aria-hidden="true">+</span></summary>
+          <p>Non. Votre connaissance du métier suffit pour commencer. Nous vous aidons à identifier les sujets, les offres et les moments qui méritent d’être montrés.</p>
+        </details>
+        <details>
+          <summary>Combien de contenus puis-je obtenir ? <span aria-hidden="true">+</span></summary>
+          <p>Cela dépend de la durée de la séance, du nombre de produits et de la complexité des vidéos. Les formules présentées sont des bases : le devis précise les livrables avant le tournage.</p>
+        </details>
+        <details>
+          <summary>Pouvez-vous gérer la publication à ma place ? <span aria-hidden="true">+</span></summary>
+          <p>La création photo et vidéo est au cœur de l’offre. Un accompagnement éditorial peut être ajouté sur devis ; son périmètre exact est défini avec vous avant la mission.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-intro">
+        <p class="eyebrow">Votre prochain projet</p>
+        <h2 id="contact-title">On vous aide à<br><em>devenir visible.</em></h2>
+        <p>Décrivez votre besoin en moins de deux minutes. Cet outil prépare un brief clair que vous pouvez copier ou télécharger, sans envoyer ni enregistrer vos données.</p>
+        <div class="contact-statement">PHOTO.<br>VIDÉO.<br><em>VOTRE HISTOIRE.</em></div>
+      </div>
+      <div class="contact-panel">
+        <form id="brief-form">
+          <div class="form-row">
+            <label>Votre prénom et nom
+              <input type="text" name="name" autocomplete="name" required placeholder="Ex. Sami Martin">
+            </label>
+            <label>Nom de l’entreprise
+              <input type="text" name="business" autocomplete="organization" required placeholder="Ex. Le Petit Comptoir">
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Type d’activité
+              <select name="activity" required>
+                <option value="">Sélectionner</option>
+                <option>Restaurant ou café</option><option>Commerce ou boutique</option><option>Beauté ou bien-être</option><option>Artisanat ou service local</option><option>Autre activité</option>
+              </select>
+            </label>
+            <label>Votre ville
+              <input type="text" name="city" autocomplete="address-level2" required placeholder="Ex. Paris">
+            </label>
+          </div>
+          <label>Votre besoin
+            <select name="package" id="package-select" required>
+              <option value="">Sélectionner</option>
+              <option>Création de photos</option><option>Création de vidéos</option><option>Photos et vidéos</option><option>Formule Essentielle</option><option>Formule Signature</option><option>Formule Mensuelle</option><option>Je ne sais pas encore</option>
+            </select>
+          </label>
+          <label>Que souhaitez-vous mettre en avant ?
+            <textarea name="goal" rows="4" required placeholder="Parlez-nous de votre offre, de vos priorités ou d’une nouveauté à présenter."></textarea>
+          </label>
+          <label>Votre e-mail ou numéro pour être recontacté
+            <input type="text" name="reply" required placeholder="La coordonnée figurera dans votre brief">
+          </label>
+          <button class="button button-primary form-submit" type="submit">Préparer mon brief <span aria-hidden="true">→</span></button>
+          <p class="form-privacy">Aucune donnée n’est transmise automatiquement. Le brief est généré uniquement dans votre navigateur.</p>
+        </form>
+        <div class="brief-result" id="brief-result" hidden aria-live="polite">
+          <p class="eyebrow">Votre demande est prête</p>
+          <h3>Il ne reste qu’à la partager.</h3>
+          <p>Copiez ce brief et envoyez-le à StudioKapt sur votre canal de contact habituel, ou conservez-le en fichier texte.</p>
+          <pre id="brief-preview"></pre>
+          <div class="brief-actions">
+            <button type="button" class="button button-primary" id="copy-brief">Copier le brief</button>
+            <button type="button" class="button button-outline" id="download-brief">Télécharger</button>
+          </div>
+          <button type="button" class="text-link brief-edit" id="edit-brief">Modifier mes informations</button>
+          <p class="copy-status" id="copy-status" role="status"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">SK</span><span>StudioKapt</span></a><p>Des images qui arrêtent le scroll.<br>Des contenus qui racontent votre valeur.</p></div>
+    <div class="footer-links"><p class="eyebrow">Explorer</p><a href="#services">Services</a><a href="#formules">Formules</a><a href="#contact">Préparer un brief</a></div>
+    <div class="footer-links"><p class="eyebrow">Spécialités</p><p>Photographie</p><p>Vidéo verticale</p><p>Contenu social media</p></div>
+    <div class="footer-bottom"><span>© <span id="year">2026</span> StudioKapt</span><span>studiokapt.com</span><a href="#top">Retour en haut ↑</a></div>
+  </footer>
+</body>
+</html>
